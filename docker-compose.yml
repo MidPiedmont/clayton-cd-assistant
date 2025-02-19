@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  server:
+    environment:
+      - NODE_ENV=production
+    build: ./elcamino/server
+    ports: 
+      - '3001:3001'
+  client:
+    build: ./elcamino/client
+    ports: 
+      - '3000:3000'
+
+
+volumes:
+  db_data:
