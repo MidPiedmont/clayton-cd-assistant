@@ -1,13 +1,7 @@
+const dbConfig = require('./dbConfig');
 const mariadb = require('mariadb/callback');
 
-const pool = mariadb.createPool({
-    database: 'cda',
-    host: 'doitwebdb01',
-    user: 'cda',
-    password: 'cda',
-    charset: 'utf8mb4',
-    connectionLimit: 5
-});
+const pool = mariadb.createPool(dbConfig);
 
 const getAddr = (request, response) => {
     const searchQuery = request.query.q;
