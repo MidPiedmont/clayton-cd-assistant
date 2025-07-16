@@ -135,3 +135,6 @@ cda/server/node_modules
 
 # DB Credentials
 cda/server/dbConfig.js
+
+# Build Directory
+build/
