@@ -875,4 +875,21 @@ export const zoningPrereqs = [
                 </Row>
             </Container>
     },
+    {
+        id: 59, 
+        name: 'Survey of the Subject Property', 
+        tip: 
+            <Container css={{padding: "3px"}}>
+                <Text color="white" css={{textAlign: "center"}}>
+                    Read Section 3.33(3)(J)(2) for details:
+                </Text>
+                <Row justify="center">
+                    <Button ghost size="sm" color="warning" as="a"
+                    href="https://library.municode.com/ga/clayton_county/codes/code_of_ordinances?nodeId=PTIICOCLCOGE_APXAZO_ART3ZODIINUSST_S3.33COSUDICS" target="_blank"
+                    >
+                        Link to Relevant Ordinance
+                    </Button>
+                </Row>
+            </Container>
+    },
 ];
