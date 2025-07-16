@@ -3,7 +3,7 @@ export const ZoningPages = [
     cards : [0,1,2,3,4,5,6],
     name : ''},
     {id: 1,
-    cards: [7,8,9,10,11,12],
+    cards: [7,8,9,10,11,12,22],
     name: 'BoC Hearing Required'},
     {id: 2,
     cards: [13,14,15,16,17],
