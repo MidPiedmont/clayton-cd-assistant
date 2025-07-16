@@ -1,7 +1,6 @@
 const dbConfig = require('./dbConfig');
-const mariadb = require('mariadb/callback');
 
-const pool = mariadb.createPool(dbConfig);
+const pool = dbConfig;
 
 const getAddr = (request, response) => {
     const searchQuery = request.query.q;
