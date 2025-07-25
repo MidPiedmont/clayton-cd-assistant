@@ -200,6 +200,15 @@ export const ZoningCards = [
     endpage: true,
     requirements: [2,50,4,6,51,52,53,11],
     },
+    {questionText: 'CS Concept Plan', 
+    categoryText: 'Request',
+    id: 22, 
+    nextPage: 0,
+    endpagelink : '',
+    addinfo: 'Request to review a CS concept plan, required before continuing with the Preliminary Plat',
+    endpage: true,
+    requirements: [2,0,4,5,6,16,59,15,53,11],
+    },
     ];
 
 

@@ -133,5 +133,8 @@ dist
 # DB Credentials
 dbConfig.js
 
+# Build Directory
+build/
+
 # Build output
 build/
