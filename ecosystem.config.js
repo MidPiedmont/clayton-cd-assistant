@@ -1,7 +1,7 @@
 module.exports = {
     apps : [{
         name: "cda-client",
-        script: "serve --spa --port 3000 build/",
+        script: "serve -s -p 3000 build/",
         cwd: './cda/client',
         watch: true,
         // env: {
