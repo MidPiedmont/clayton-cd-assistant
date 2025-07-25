@@ -1,16 +1,15 @@
 module.exports = {
     apps : [{
-        name: "assistant",
-        script: "serve build",
+        name: "cda-client",
+        script: "serve --spa --port 3000 build/",
         cwd: './elcamino/client',
         watch: true,
-        env: {
-            PM2_SERVE_PATH: '.',
-            PM2_SERVE_PORT: 3000,
-            PM2_SERVE_SPA: 'true',
-        }
+        // env: {
+        //     PM2_SERVE_PATH: '.',
+        //     PM2_SERVE_PORT: 3000,
+        // }
       }, {
-        name: "api",
+        name: "cda-api",
         script: "./index.js",
         cwd: "./elcamino/server",
         watch: true,
