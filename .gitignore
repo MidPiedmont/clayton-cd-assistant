@@ -129,9 +129,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# node_modules
-cda/client/node_modules
-cda/server/node_modules
 
 # DB Credentials
-cda/server/dbConfig.js
+dbConfig.js
+
+# Build output
+build/
