@@ -11,7 +11,7 @@ export function Footer() {
                 css={{textDecoration: "underline"}}
                 as="a" 
                 href="https://www.claytoncountyga.gov/government/community-development/">
-                    Clayton County Community Development
+                    Clayton County Community & Economic Development
                 </Text>
             </Row>
             <Row justify="center">
