@@ -198,7 +198,7 @@ export const ZoningCards = [
     endpagelink : 'https://claytoncountyga-energovweb.tylerhost.net/apps/selfservice#/plan/apply/36/0/0',
     addinfo: 'Request a deviation from the Zoning Ordinance prescribed to a parcel',
     endpage: true,
-    requirements: [2,50,4,6,51,52,53,11],
+    requirements: [50,4,6,51,52,53,11],
     },
     {questionText: 'CS Concept Plan', 
     categoryText: 'Request',
@@ -207,7 +207,7 @@ export const ZoningCards = [
     endpagelink : 'https://claytoncountyga-energovweb.tylerhost.net/apps/selfservice#/plan/apply/194/0/0',
     addinfo: 'Request to review a CS concept plan, required before continuing with the Preliminary Plat',
     endpage: true,
-    requirements: [0,4,5,6,16,59,15,53,11],
+    requirements: [2,0,4,5,6,16,59,15,53,11],
     },
     ];
 
