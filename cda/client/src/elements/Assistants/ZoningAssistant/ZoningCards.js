@@ -7,7 +7,7 @@ export const ZoningCards = [
     id: 0, 
     nextPage: 0,
     endpagelink: 'https://claytoncountyga-energovweb.tylerhost.net/apps/selfservice#/plan/apply/56/0/0',
-    addinfo: 'Most Zoning requests and processes require an initial meeting to state your intentions to be approved or denied in front either the Board of Commissioners or the Board of Zoning Appeals.',
+    addinfo: 'Most Zoning requests and processes require an initial meeting to state your intentions to be approved or denied in front of the Board of Commissioners.',
     endpage: true,
     requirements: [0,1,58],
     },
