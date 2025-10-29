@@ -117,7 +117,7 @@ export function PermitContent() {
                         isHoverable
                         variant={cardVariant(PermitCards[cardList].endpage)}
                         borderWeight="bold"
-                        onPress={()=>{ // onClick function that changes the 'cardPage' state to the ID of the question displayed.
+                        onPress={()=>{ // onPress function that changes the 'cardPage' state to the ID of the question displayed.
                             const paramID = '/PermitRequirements/' + PermitCards[cardList].id;
                             console.log(PermitCards[cardList].nextPage);
                             if(PermitCards[cardList].endpage){

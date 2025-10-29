@@ -6,7 +6,7 @@ costs are associated with all the different permits, licenses, planning requests
 ## Development Server
 To run in a development environment, 
 - open `./server` in a terminal and run `npm i && node index.js`.  
-- open `./client` in a terminal and run `npm i && npm run dev`.
+- open `./client` in a terminal and run `npm i && npm start`.
 
 ## Production Server
 To run in Production
