@@ -25,7 +25,7 @@ export function Footer() {
             <Spacer y={0.3} />
             <Row justify="center">
                 <Text color="$black" small>
-                    ©2024 Clayton County Government | 
+                    {new Date().toISOString().split('-')[0]} Clayton County Government | 
                     <Text 
                     css={{textDecoration: "underline"}} 
                     as="a" 
